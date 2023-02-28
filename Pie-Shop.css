@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+.hade1{
+    font-size: 3em;
+}
+.Banner{
+    max-width: 100%;
+}
+.Sub-Title{
+    background-color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+   margin:  0.5em 0 0.5em 0;
+}
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a493c0;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul{
+    display: inline;
+    padding: 0;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0.5em 0 0.5em;
+    
+}
+.main{
+    background-image: url("img/background.png");
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+    display: block;
+    display: flex;
+}
+footer nav   {
+    padding: 15px;
+    background-color: #999;
+}
+.aside,
+.article{
+    padding: 2em;
+}
+.aside{
+    text-align: center;
+    margin-left: 2%;
+}
+.article{
+    width: 75%;
+}
+.TP{
+    display: flex;
+}
+
+@media only screen and(min-width: 768px) {
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+    .aside{
+        margin-left: 2%;
+    }
+    .Card-Part{
+        display: flex;
+    }
+}
+
+/* Pie Section start */
+.Card-Part{
+    display: flex;
+}
+.Food-Card{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Food-Card img{
+    width: 100%;
+}
+.Food-Card .title{
+    font-weight: bold;
+}
+.Food-Card .price{
+    text-align: right;
+}
+.Food-Card .TP{
+    width: 100%;
+}
+.Food-Card .TP div{
+    width: 50%;
+}
+.Food-Card button {
+    background-color: #f6aeae;
+    padding: 10px;
+    border: 1px solid #f6aeae;
+    border-radius: 3px;
+    color: #fff;
+}
